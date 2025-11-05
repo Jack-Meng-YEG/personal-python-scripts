@@ -258,6 +258,3 @@ The script will:
   or via `FFMPEG_PATH`.
 
 ---
-
-Happy scripting! This repository is a good place to keep all your SSML / audio
-tools together, including future extensions like logging, GUIs, or batch jobs.
