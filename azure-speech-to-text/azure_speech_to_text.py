@@ -4,11 +4,11 @@
 Azure Speech STT 实用脚本（单文件 & 批量）
 用法示例：
   单文件中文：
-    stt_azure.py -i ~/speechcli/audio/习惯性反驳_audio.wav -l zh-CN
+    azure_speech_to_text.py -i ~/speechcli/audio/file.wav -l zh-CN
   批量处理目录中所有音频（中文）并生成字幕：
-    stt_azure.py -i ~/speechcli/audio -l zh-CN --srt --vtt
+    azure_speech_to_text.py -i ~/speechcli/audio -l zh-CN --srt --vtt
   英文识别并只要 TXT：
-    stt_azure.py -i ~/speechcli/audio/file.wav -l en-US --txt
+    azure_speech_to_text.py -i ~/speechcli/audio/file.wav -l en-US --txt
 环境变量：
   SPEECH_KEY（必需）、SPEECH_REGION 或 SPEECH_ENDPOINT（二选一，推荐 REGION）
 """
